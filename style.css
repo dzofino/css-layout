@@ -1,0 +1,81 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Intro part */
+.health-intro {
+	text-align: center;
+	margin: 2% 10%;
+}
+
+.health-intro div {
+	display: flex;
+	justify-content: space-between;
+	padding: 3%;
+	line-height: 1.75;
+}
+
+.health-intro div p {
+	width: 45%;
+	text-align: start;
+	font-weight: lighter;
+}
+
+.health-intro h1 {
+	font-size: 36px;
+	padding: 2%;
+	font-weight: lighter;
+	color: #00b39b;
+}
+
+.health-intro img {
+	width: 50px;
+}
+
+/* Countries part */
+.countries {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 2% 10%;
+}
+
+.country {
+	margin-bottom: 2%;
+	border-radius: 2%;
+}
+
+.country img {
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+}
+
+.country div {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 4%;
+}
+
+.country div p {
+	color: #747474;
+}
+
+.country div button {
+	color: #fff;
+	background-color: #3d83df;
+	border-radius: 5px;
+	height: 30px;
+	border: none;
+}
+
+.country:hover {
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+.logodocplanner { 
+    width: 268px;
+    height: 33px;
+}
+. div navbar{
+    display: flex;
+}
